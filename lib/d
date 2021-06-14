@@ -1,0 +1,23 @@
+    // child: SfCartesianChart(
+              //     borderColor: Colors.black87,
+              //     zoomPanBehavior: ZoomPanBehavior(enablePinching: true, enablePanning: true),
+              //     backgroundColor: Colors.black87,
+              //     primaryXAxis: DateTimeAxis(
+              //         visibleMinimum: DateTime(2016, 01, 8),
+              //         visibleMaximum: DateTime(2016, 03, 16),
+              //         edgeLabelPlacement: EdgeLabelPlacement.shift,
+              //         intervalType: DateTimeIntervalType.days,
+              //         majorGridLines: MajorGridLines(width: 0)),
+              //     primaryYAxis: NumericAxis(interval: 4),
+              //     series: <ChartSeries<ChartSampleData, DateTime>>[
+              //       CandleSeries<ChartSampleData, DateTime>(
+              //         dataSource: chartData,
+              //         xValueMapper: (ChartSampleData sales, _) => sales.x,
+              //         lowValueMapper: (ChartSampleData sales, _) => sales.low,
+              //         highValueMapper: (ChartSampleData sales, _) => sales.high,
+              //         openValueMapper: (ChartSampleData sales, _) => sales.open,
+              //         closeValueMapper: (ChartSampleData sales, _) =>
+              //             sales.close,
+              //         name: 'Sales',
+              //       )
+              //     ])
